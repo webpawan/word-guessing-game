@@ -9,21 +9,22 @@
   </head>
   <body>
     <div class="main_container">
-      <div class="main_box black">
-        <div class="text_area">
-          <h1>tag linke</h1>
-          <h2>gussing word</h2>
+      <div class="show black">
+        <div class="main_box">
+          <div class="text_area">
+            <h1>LET'S SEE YOU MEMORY POWER 💡</h1>
+            <h2 id="our_word">click the red button 👇</h2>
+          </div>
+          <div class="input_area">
+            <input type="text" placeholder="write word" id="input_area" />
+          </div>
+          <button class="btn" id="btn">click</button>
         </div>
-        <div class="input_area">
-          <input type="text" placeholder="write word" />
-        </div>
-        <button class="btn">click</button>
       </div>
       <div class="display">
-        <h1>who is win</h1>
+        <h1 id="result">who is win</h1>
         <div class="button">
-          <button class="btn_retry btn">retry</button>
-          <button class="btn_reset btn">reset</button>
+          <button class="btn_reset btn" onclick="reset()">reset</button>
         </div>
       </div>
     </div>

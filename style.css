@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main_container {
+  background-color: #16213e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.black {
+}
+
+.display {
+  display: none;
+  z-index: 20;
+}
+
+.button {
+  margin: 1rem;
+}
+
+.main_box {
+  border-radius: 0.5rem;
+  background-color: #533483;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  height: 20rem;
+  width: 30rem;
+}
+
+.text_area {
+  color: white;
+  /* border: 2px solid white; */
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text_area h1 {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  /* border: 2px solid red; */
+}
+.text_area h2 {
+  padding: 1rem;
+}
+
+.input_area {
+  padding: 1rem;
+}
+
+.input_area input {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn {
+  /* margin: 1rem; */
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #e94560;
+  border: 2px solid #0f3460;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+  outline: none;
+  transition: all 0.1s;
+  box-shadow: inset 0.3rem 0.3rem 0.7rem rgba(255, 255, 255, 0.2),
+    inset -0.3rem -0.3rem 0.7rem rgba(0, 0, 0, 0.2);
+  transition: all 0.1s;
+}
+
+.btn:hover {
+}
+
+.btn:active,
+.btn:visited {
+  background-color: #e94560;
+  color: white;
+  box-shadow: 0.1em 0.1rem 0.7rem rgba(255, 255, 255, 0.2),
+    -0.3rem -0.3rem 0.7rem rgba(0, 0, 0, 0.2),
+    inset 0.3rem 0.3rem 0.7rem rgba(0, 0, 0, 0.458),
+    inset -0.3rem -0.3rem 0.7rem rgba(0, 0, 0, 0.463);
+  font-size: 1.4rem;
+}

@@ -4,7 +4,7 @@ let result_display = document.getElementsByClassName('display')[0];
 let btn = document.getElementById('btn');
 let result = document.getElementById("result");
 
-let wordst = ["html", "css", "saini"];
+let wordst = ["html", "css", "javascript","python","reactjs","recursion","stack","nodejs"];
 
 const choose = () => {
     let random = Math.floor(Math.random() * wordst.length);
@@ -62,6 +62,7 @@ function reset() {
     word_space.innerText ="Again try"
     result_display.style.display = 'none';
     play = false;
+    input.value = "";
 }
 
 
